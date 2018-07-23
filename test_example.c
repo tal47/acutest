@@ -1,4 +1,4 @@
-#include "acutest.h"
+#include "include/acutest.h"
 
 void test_example(void);
 
@@ -20,6 +20,5 @@ void test_example(void)
 
 TEST_LIST = {
    { "example", test_example },
-   ...
    { 0 }
 };
